@@ -32,13 +32,6 @@ wget https://raw.githubusercontent.com/aksamlan/Sonaric/main/sonaric.sh && chmod
 sonaric node-info
 ```
 
-## 🟢 GUI'yi çalıştırın
-➖ Yerel terminalinizi açın
-➖ "user@your-vps-ip" kendi IP'nizle değiştirin (örneğin: root@123.456.789)
-```shell
-ssh -L 127.0.0.1:44003:127.0.0.1:44003 -L 127.0.0.1:44004:127.0.0.1:44004 -L 127.0.0.1:44005:127.0.0.1:44005 -L 127.0.0.1:44006:127.0.0.1:44006 user@your-vps-ip
-```
-Girdikten sonra sunucu şifrenizi girip çalışıyor.
 
 ## 🟢 Sunucudaki bilgilerinizi yedekleyin
 ```shell
@@ -56,3 +49,13 @@ sonaric node-rename
 mysonaric.identity dosyasını güvenli bir yere kaydedin. Root klasörü içerisinde oluşmaktadır.
 
 İŞLEMLERİMİZ BU KADARDI. TEŞEKKÜRLER...
+
+İSTEĞE BAĞLI
+
+## 🟢 GUI'yi çalıştırın
+➖ Yerel terminalinizi açın
+➖ "user@your-vps-ip" kendi IP'nizle değiştirin (örneğin: root@123.456.789)
+```shell
+ssh -L 127.0.0.1:44003:127.0.0.1:44003 -L 127.0.0.1:44004:127.0.0.1:44004 -L 127.0.0.1:44005:127.0.0.1:44005 -L 127.0.0.1:44006:127.0.0.1:44006 user@your-vps-ip
+```
+Girdikten sonra sunucu şifrenizi girin.
